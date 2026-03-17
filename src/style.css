@@ -1,3 +1,7 @@
+:root {
+  --color-blue: #00acdc;
+}
+
 body {
   margin: 0;
 
@@ -35,6 +39,7 @@ body {
   position: relative;
   display: block;
   line-height: 60px;
+  text-transform: uppercase;
 }
 
 .nav_list {
@@ -52,11 +57,11 @@ body {
 }
 
 .link_item:hover {
-  color: #00acdc;
+  color: var(--color-blue);
 }
 
 .is-active {
-  color: #00acdc;
+  color: var(--color-blue);
 }
 
 .addition::after {
@@ -68,7 +73,7 @@ body {
   content: '';
   left: 0;
   right: 0;
-  background-color: #00acdc;
+  background-color: var(--color-blue);
   margin: 0 auto;
 }
 
